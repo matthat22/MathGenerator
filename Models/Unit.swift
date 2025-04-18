@@ -1,9 +1,15 @@
 import Foundation
 
-struct Unit: Codable, Identifiable, Hashable { // Keep Hashable, remove manual implementation
-    var id = UUID() // Can be 'let' if you don't need decoding
+struct Unit: Codable, Identifiable, Hashable {
+    var id = UUID()
     let name: String
+    let description: String?
     let questionTypes: [QuestionType]
     
-    // No need for manual Hashable conformance
+    init(id: UUID = UUID(), name: String, description: String? = nil, questionTypes: [QuestionType]) {
+        self.id = id
+        self.name = name
+        self.description = description
+        self.questionTypes = questionTypes
+    }
 }

@@ -6,6 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		349D8AE82DAEF69F00D3461C /* NumberSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AC02DAEF53200D3461C /* NumberSettings.swift */; };
+		349D8AE92DAEF6A500D3461C /* NumberSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AC42DAEF55A00D3461C /* NumberSettingsView.swift */; };
+		349D8AEA2DAEF6A500D3461C /* QuestionGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AC12DAEF53D00D3461C /* QuestionGenerator.swift */; };
+		349D8AEB2DAEF6A500D3461C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AC62DAEF56700D3461C /* Validation.swift */; };
+		349D8AEC2DAEF6A500D3461C /* NumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AE72DAEF61000D3461C /* NumberGenerator.swift */; };
+		349D8AED2DAEF6A500D3461C /* UniversalTogglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AC32DAEF55300D3461C /* UniversalTogglesView.swift */; };
+		349D8AF12DAF19D100D3461C /* Grade9Units.json in Resources */ = {isa = PBXBuildFile; fileRef = 349D8AEF2DAF199400D3461C /* Grade9Units.json */; };
+		349D8AF22DAF19D100D3461C /* CurriculumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AF02DAF19B800D3461C /* CurriculumManager.swift */; };
+		349D8AF42DAF1B0A00D3461C /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AF32DAF1B0800D3461C /* Unit.swift */; };
+		349D8AF82DAF26AC00D3461C /* QuestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AF72DAF26A900D3461C /* QuestionType.swift */; };
+		349D8AFD2DAF277F00D3461C /* NumberSenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AFC2DAF277C00D3461C /* NumberSenseView.swift */; };
+		349D8AFE2DAF294100D3461C /* SimplifyingExpressionGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AFA2DAF271D00D3461C /* SimplifyingExpressionGenerator.swift */; };
+		349D8AFF2DAF294400D3461C /* FillInBlanksGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8AFB2DAF272C00D3461C /* FillInBlanksGenerator.swift */; };
+		349D8B022DAF2EBA00D3461C /* ConversionGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8B012DAF2EB400D3461C /* ConversionGenerator.swift */; };
+		349D8B042DAF2EC000D3461C /* BEDMASGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8B032DAF2EBD00D3461C /* BEDMASGenerator.swift */; };
+		349D8B062DAF2EC600D3461C /* WordProblemGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8B052DAF2EC500D3461C /* WordProblemGenerator.swift */; };
+		349D8B092DAF2F3000D3461C /* GenerationUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349D8B082DAF2F2A00D3461C /* GenerationUtilities.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		349D8AA32DAEF51900D3461C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +47,23 @@
 		349D8A942DAEF51700D3461C /* MathGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349D8AA22DAEF51900D3461C /* MathGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		349D8AAC2DAEF51900D3461C /* MathGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349D8AC02DAEF53200D3461C /* NumberSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSettings.swift; sourceTree = "<group>"; };
+		349D8AC12DAEF53D00D3461C /* QuestionGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGenerator.swift; sourceTree = "<group>"; };
+		349D8AC32DAEF55300D3461C /* UniversalTogglesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalTogglesView.swift; sourceTree = "<group>"; };
+		349D8AC42DAEF55A00D3461C /* NumberSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSettingsView.swift; sourceTree = "<group>"; };
+		349D8AC62DAEF56700D3461C /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		349D8AE72DAEF61000D3461C /* NumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGenerator.swift; sourceTree = "<group>"; };
+		349D8AEF2DAF199400D3461C /* Grade9Units.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Grade9Units.json; sourceTree = "<group>"; };
+		349D8AF02DAF19B800D3461C /* CurriculumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumManager.swift; sourceTree = "<group>"; };
+		349D8AF32DAF1B0800D3461C /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		349D8AF72DAF26A900D3461C /* QuestionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
+		349D8AFA2DAF271D00D3461C /* SimplifyingExpressionGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplifyingExpressionGenerator.swift; sourceTree = "<group>"; };
+		349D8AFB2DAF272C00D3461C /* FillInBlanksGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillInBlanksGenerator.swift; sourceTree = "<group>"; };
+		349D8AFC2DAF277C00D3461C /* NumberSenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSenseView.swift; sourceTree = "<group>"; };
+		349D8B012DAF2EB400D3461C /* ConversionGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionGenerator.swift; sourceTree = "<group>"; };
+		349D8B032DAF2EBD00D3461C /* BEDMASGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BEDMASGenerator.swift; sourceTree = "<group>"; };
+		349D8B052DAF2EC500D3461C /* WordProblemGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordProblemGenerator.swift; sourceTree = "<group>"; };
+		349D8B082DAF2F2A00D3461C /* GenerationUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +112,11 @@
 		349D8A8B2DAEF51700D3461C = {
 			isa = PBXGroup;
 			children = (
+				349D8AEE2DAF199000D3461C /* Data */,
+				349D8ABF2DAEF52B00D3461C /* Models */,
+				349D8AC22DAEF54C00D3461C /* Views */,
+				349D8AF92DAF271500D3461C /* Generators */,
+				349D8AC52DAEF56100D3461C /* Utilities */,
 				349D8A962DAEF51700D3461C /* MathGenerator */,
 				349D8AA52DAEF51900D3461C /* MathGeneratorTests */,
 				349D8AAF2DAEF51900D3461C /* MathGeneratorUITests */,
@@ -90,6 +132,74 @@
 				349D8AAC2DAEF51900D3461C /* MathGeneratorUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		349D8ABF2DAEF52B00D3461C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				349D8AF32DAF1B0800D3461C /* Unit.swift */,
+				349D8AF72DAF26A900D3461C /* QuestionType.swift */,
+				349D8AC02DAEF53200D3461C /* NumberSettings.swift */,
+				349D8AC12DAEF53D00D3461C /* QuestionGenerator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		349D8AC22DAEF54C00D3461C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				349D8AFC2DAF277C00D3461C /* NumberSenseView.swift */,
+				349D8AC42DAEF55A00D3461C /* NumberSettingsView.swift */,
+				349D8AC32DAEF55300D3461C /* UniversalTogglesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		349D8AC52DAEF56100D3461C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				349D8AF02DAF19B800D3461C /* CurriculumManager.swift */,
+				349D8AC62DAEF56700D3461C /* Validation.swift */,
+				349D8AE72DAEF61000D3461C /* NumberGenerator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		349D8AEE2DAF199000D3461C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				349D8AEF2DAF199400D3461C /* Grade9Units.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		349D8AF92DAF271500D3461C /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				349D8B002DAF2EA800D3461C /* Number Sense */,
+				349D8B072DAF2F1200D3461C /* Core */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+		349D8B002DAF2EA800D3461C /* Number Sense */ = {
+			isa = PBXGroup;
+			children = (
+				349D8AFA2DAF271D00D3461C /* SimplifyingExpressionGenerator.swift */,
+				349D8AFB2DAF272C00D3461C /* FillInBlanksGenerator.swift */,
+				349D8B012DAF2EB400D3461C /* ConversionGenerator.swift */,
+				349D8B032DAF2EBD00D3461C /* BEDMASGenerator.swift */,
+				349D8B052DAF2EC500D3461C /* WordProblemGenerator.swift */,
+			);
+			path = "Number Sense";
+			sourceTree = "<group>";
+		};
+		349D8B072DAF2F1200D3461C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				349D8B082DAF2F2A00D3461C /* GenerationUtilities.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349D8AF12DAF19D100D3461C /* Grade9Units.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +347,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349D8B092DAF2F3000D3461C /* GenerationUtilities.swift in Sources */,
+				349D8AFF2DAF294400D3461C /* FillInBlanksGenerator.swift in Sources */,
+				349D8AE92DAEF6A500D3461C /* NumberSettingsView.swift in Sources */,
+				349D8B042DAF2EC000D3461C /* BEDMASGenerator.swift in Sources */,
+				349D8AEA2DAEF6A500D3461C /* QuestionGenerator.swift in Sources */,
+				349D8AEB2DAEF6A500D3461C /* Validation.swift in Sources */,
+				349D8AEC2DAEF6A500D3461C /* NumberGenerator.swift in Sources */,
+				349D8AF42DAF1B0A00D3461C /* Unit.swift in Sources */,
+				349D8AED2DAEF6A500D3461C /* UniversalTogglesView.swift in Sources */,
+				349D8AFE2DAF294100D3461C /* SimplifyingExpressionGenerator.swift in Sources */,
+				349D8AE82DAEF69F00D3461C /* NumberSettings.swift in Sources */,
+				349D8B062DAF2EC600D3461C /* WordProblemGenerator.swift in Sources */,
+				349D8AF22DAF19D100D3461C /* CurriculumManager.swift in Sources */,
+				349D8AF82DAF26AC00D3461C /* QuestionType.swift in Sources */,
+				349D8AFD2DAF277F00D3461C /* NumberSenseView.swift in Sources */,
+				349D8B022DAF2EBA00D3461C /* ConversionGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

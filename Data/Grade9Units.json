@@ -1,0 +1,97 @@
+{
+  "units": [
+  {
+  "name": "Number Sense & Operations",
+  "questionTypes": [
+  {
+  "name": "Simplifying Expressions",
+  "description": "Simplify arithmetic expressions with basic operations (+, -, ×, ÷) on integers and fractions.",
+  "toggles": [
+  {
+  "id": "includeFractions",
+  "displayName": "Include Fractions",
+  "defaultValue": false
+  },
+  {
+  "id": "includeNegatives",
+  "displayName": "Include Negatives",
+  "defaultValue": true
+  },
+  {
+  "id": "maxTerms",
+  "displayName": "Max Terms (3-6)",
+  "defaultValue": 4
+  }
+  ]
+  },
+  {
+  "name": "Fill in the Blanks",
+  "description": "Complete equations by filling missing operators/numbers",
+  "toggles": [
+  {
+  "id": "operationTypes",
+  "displayName": "Allowed Operations",
+  "defaultValue": ["+", "-", "×", "÷"]
+  },
+  {
+  "id": "requireNegatives",
+  "displayName": "Require Negative Solutions",
+  "defaultValue": false
+  }
+  ]
+  },
+  {
+  "name": "Conversions",
+  "description": "Convert between mixed numbers, improper fractions, and decimals",
+  "toggles": [
+  {
+  "id": "conversionDirection",
+  "displayName": "Conversion Direction",
+  "defaultValue": "toFraction",
+  "options": ["toFraction", "toDecimal", "toMixedNumber"]
+  },
+  {
+  "id": "simplifyResults",
+  "displayName": "Simplify Fractions",
+  "defaultValue": true
+  }
+  ]
+  },
+  {
+  "name": "Evaluating Expressions",
+  "description": "Solve expressions using order of operations (BEDMAS)",
+  "toggles": [
+  {
+  "id": "exponentComplexity",
+  "displayName": "Exponent Difficulty",
+  "defaultValue": "basic",
+  "options": ["basic", "negative", "fractional"]
+  },
+  {
+  "id": "allowDecimalResults",
+  "displayName": "Allow Decimal Results",
+  "defaultValue": true
+  }
+  ]
+  },
+  {
+  "name": "Word Problems",
+  "description": "Solve real-world scenarios with numerical operations",
+  "toggles": [
+  {
+  "id": "contextType",
+  "displayName": "Context Type",
+  "defaultValue": "shopping",
+  "options": ["shopping", "sports", "science"]
+  },
+  {
+  "id": "multiStep",
+  "displayName": "Multi-Step Problems",
+  "defaultValue": false
+  }
+  ]
+  }
+  ]
+  }
+  ]
+ }

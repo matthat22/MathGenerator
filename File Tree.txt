@@ -1,0 +1,41 @@
+MathGenerator/
+├── Data/
+│   └── Grade9Units.json
+├── Generators/
+│   ├── Core
+│   │   └── GenerationUtilities.swift
+│   └── Number Sense
+│       ├── BEDMASGenerator.swift
+│       ├── ConversionGenerator.swift
+│       ├── FillInBlanksGenerator.swift
+│       ├── SimplifyingExpressionGenerator.swift
+│       └── WordProblemGenerator.swift
+├── MathGenerator/
+│   ├── Assets.xcassets
+│   │   ├── AccentColor.colorset
+│   │   │   └── Contents.json
+│   │   ├── AppIcon.appiconset
+│   │   │   └── Contents.json
+│   │   └── Contents.json
+│   ├── ContentView.swift
+│   ├── MathGenerator.entitlements
+│   └── MathGeneratorApp.swift
+├── MathGenerator.xcodeproj
+├── MathGeneratorTests/
+│   └── MathGeneratorTests.swift
+├── MathGeneratorUITests
+│   ├── MathGeneratorUITests.swift
+│   └── MathGeneratorUITestsLaunchTests.swift
+├── Models/
+│   ├── NumberSettings.swift
+│   ├── QuestionGenerator.swift
+│   ├── QuestionType.swift
+│   └── Unit.swift
+├── Utilities/
+│   ├── CurriculumManager.swift
+│   ├── NumberGenerator.swift
+│   └── Validation.swift
+└── Views/
+    ├── NumberSenseView.swift
+    ├── NumberSettingsView.swift
+    └── UniversalTogglesView.swift
